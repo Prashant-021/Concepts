@@ -1,6 +1,7 @@
 import './App.css'
 import EventDeligation from './pages/EventDeligation'
 import ListFunctionCallOptimization from './pages/ListFunctionCallOptimization'
+import UseMemoExample from './pages/UseMemoExample'
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <div className='min-h-screen'>
       <h1>React Concepts</h1>
       {/* <EventDeligation /> */}
-      <ListFunctionCallOptimization />
+      {/* <ListFunctionCallOptimization /> */}
+      <UseMemoExample />
     </div>
   )
 }
