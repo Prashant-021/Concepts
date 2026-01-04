@@ -1,6 +1,7 @@
 import './App.css'
 import EventDeligation from './pages/EventDeligation'
 import ListFunctionCallOptimization from './pages/ListFunctionCallOptimization'
+import UseCallbackExample from './pages/UseCallbackExample'
 import UseMemoExample from './pages/UseMemoExample'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <h1>React Concepts</h1>
       {/* <EventDeligation /> */}
       {/* <ListFunctionCallOptimization /> */}
-      <UseMemoExample />
+      {/* <UseMemoExample /> */}
+      <UseCallbackExample />
     </div>
   )
 }
